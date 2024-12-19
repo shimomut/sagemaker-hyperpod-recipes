@@ -12,4 +12,5 @@ slurm_docker_cfg:
     # - "--runtime=nvidia" # this is required if the docker runtime version is low
   post_launch_commands: # commands will run after launching the docker container using bash
 container_mounts: # List of additional paths to mount to container. They will be mounted to same path.
-  - null
+  - /fsx_p2
+  - /mnt/weka

@@ -19,7 +19,7 @@ debug: False
 instance_type: p5.48xlarge
 base_results_dir: null  # Location to store the results, checkpoints and logs.
 
-container: null
+container: /fsx_p2/shimomut/recipes/images/smdistributed-modelparallel.sqsh
 
 git:
   repo_url_or_path: null
